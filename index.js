@@ -5,7 +5,7 @@
 import React from 'react';
 import {AppRegistry, Text} from 'react-native';
 import {name as appName} from './app.json';
-import {Welcome, Login} from './screens';
+import {Welcome, Login, Resgiter, FoodList} from './screens';
 
 let fakedProducts = [
   {
@@ -37,4 +37,4 @@ let fakedProducts = [
 //                     products = {fakedProducts}
 //                     />);
 
-AppRegistry.registerComponent(appName, () => () => <Login />);
+AppRegistry.registerComponent(appName, () => () => <FoodList />);

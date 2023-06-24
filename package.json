@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.71.11",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
